@@ -1,0 +1,31 @@
+GET http://localhost:3000/streetwear
+
+
+###
+
+GET http://localhost:3000/streetwear/5e4209854de5c6042d9f0ff1
+
+###
+
+POST http://localhost:3000/streetwear
+Content-Type: application/json
+
+{
+    "name":"Yeezy 350",
+    "garment":"Sneakers",
+    "designer":"Kanye"
+}
+
+
+###
+
+DELETE http://localhost:3000/streetwear/5e4209fc4de5c6042d9f0ff2
+
+
+###
+PATCH http://localhost:3000/streetwear/5e4209854de5c6042d9f0ff1
+Content-Type: application/json
+
+{
+"garment":"GEOBASKETS"
+}

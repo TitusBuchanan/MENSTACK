@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="app.css">
+    <script src="scriptfetch.js" defer></script>
+    <title>Teezus</title>
+</head>
+<input type="text" name="userName" id="userName" placeholder="Hype">
+<button id="specific" onclick="getSpecific()" >GET SPECIFIC Hype</button>
+<div id="specificHype" style="padding: 10px">
+
+<body>
+<h1>Getting the HYPE</h1>
+<button id ="all" onclick="getAllHype()">Getting ALL HYPE OBJECTS</button>
+<div id ="allHype" style = "padding:10px">
+
+</div>
+
+
+
+<label for ="name">Name:</label>
+<input type = "text" id="namePost">
+
+<label for ="garment">garment:</label>
+<input type = "text" id="garment">
+
+
+<label for ="designer">designer:</label>
+<input type = "text" id="designer">
+
+<label for="message">Id:</label>
+<input type="text" id="id">
+
+<button id="post" onclick="createHype()">Create Hype</button>
+<button id="update" onclick="updateHype()">Update Hype</button>
+<button id="update" onclick="deleteHype()">Delete Hype</button>
+
+</body>
+
+</html>
